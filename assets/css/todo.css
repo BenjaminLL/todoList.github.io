@@ -1,0 +1,90 @@
+body {
+	background: #085078;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+	width: 345px;
+	margin-top: 100px;
+	background-color: #efeeed;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 0;
+}
+
+h1 {
+	background-color: #61a9ed;
+	margin: 0;
+	padding: 10px 10px;
+	color: white;
+	font-size: 30px;
+}
+
+.fa-plus {
+	float: right;
+	text-align: center;
+}
+
+input {
+	width: 100%;
+	margin: 0;
+	border: none;
+	padding: 2px 10px; 
+	border: 2px solid #efeeed;
+	background-color: #efeeed;
+	color: #105ea8;
+	display: none;
+}
+
+input:focus {
+	outline: none;
+	border: 2px solid #61a9ed;
+	background-color: white;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	/*padding: 7px 10px;*/
+	height: 35px;
+	line-height: 35px;
+}
+
+li:nth-child(2n+1) {
+	background-color: white;
+
+}
+
+li:hover .fa-trash-alt {
+	width: 40px;
+	opacity: 1;
+}
+
+ul, menu, dir {
+	list-style-type: none;
+}
+
+
+.fa-trash-alt {
+	background-color: #c12a22;
+	color: white;
+	display: inline-block;
+	width: 0px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 10px;
+	opacity: 0;
+	transition: 0.3s linear;
+}
+
+
+.crossOut {
+	color: grey;
+	text-decoration: line-through;
+}
